@@ -9,9 +9,25 @@ angular.module("blogDetail").component("blogDetail", {
         if (post.id.toString() === $routeParams.id) {
           $scope.notFound = false;
           $scope.post = post;
+          resetReply();
         }
       });
     });
+
+    function resetReply() {
+      $scope.reply = {
+        id: $scope.post.comments.length + 1,
+        text: "",
+      };
+    }
+    $scope.addReply = function () {
+      console.log($scope.reply);
+      $scope.post.comments.push($scope.reply);
+      resetReply();
+    };
+    $scope.deleteComment = function (comment) {
+      $scope.$apply($scope.post.comments.splice(comment, 1));
+    };
 
     if ($scope.notFound) {
       console.log("Not Found");
