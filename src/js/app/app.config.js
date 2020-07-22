@@ -9,6 +9,9 @@ angular.module("app").config(function ($locationProvider, $routeProvider) {
     .when("/about", {
       templateUrl: "/templates/about.html",
     })
+    .when("/blog", {
+      template: "<blog-list />",
+    })
     .when("/blog/:id", {
       template: "<blog-detail />",
     })

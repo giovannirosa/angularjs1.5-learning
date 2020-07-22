@@ -16,7 +16,7 @@ angular.module("blogDetail").component("blogDetail", {
 
     function resetReply() {
       $scope.reply = {
-        id: $scope.post.comments.length + 1,
+        id: $scope.post.comments?.length + 1,
         text: "",
       };
     }

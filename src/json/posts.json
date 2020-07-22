@@ -7,11 +7,30 @@
     "comments": [
       { "id": 1, "text": "Nice book" },
       { "id": 2, "text": "Another comment" }
-    ]
+    ],
+    "image": "https://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg"
   },
-  { "title": "Title", "id": 2, "description": "This is a book" },
-  { "title": "Tea", "id": 3, "description": "This is a book" },
-  { "title": "Lite", "id": 4, "description": "This is a book" },
+  {
+    "title": "Title",
+    "id": 2,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
+  {
+    "title": "Tea",
+    "id": 3,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
+  {
+    "title": "Lite",
+    "id": 4,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
   {
     "title": "New book",
     "id": 1,
@@ -20,10 +39,23 @@
     "comments": [
       { "id": 1, "text": "Nice book" },
       { "id": 2, "text": "Another comment" }
-    ]
+    ],
+    "image": "/img/1.jpg"
   },
-  { "title": "Title", "id": 2, "description": "This is a book" },
-  { "title": "Tea", "id": 3, "description": "This is a book" },
+  {
+    "title": "Title",
+    "id": 2,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
+  {
+    "title": "Tea",
+    "id": 3,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
   {
     "title": "New book",
     "id": 1,
@@ -32,10 +64,23 @@
     "comments": [
       { "id": 1, "text": "Nice book" },
       { "id": 2, "text": "Another comment" }
-    ]
+    ],
+    "image": "/img/1.jpg"
   },
-  { "title": "Title", "id": 2, "description": "This is a book" },
-  { "title": "Tea", "id": 3, "description": "This is a book" },
+  {
+    "title": "Title",
+    "id": 2,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
+  {
+    "title": "Tea",
+    "id": 3,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
   {
     "title": "New book",
     "id": 1,
@@ -44,10 +89,23 @@
     "comments": [
       { "id": 1, "text": "Nice book" },
       { "id": 2, "text": "Another comment" }
-    ]
+    ],
+    "image": "/img/1.jpg"
   },
-  { "title": "Title", "id": 2, "description": "This is a book" },
-  { "title": "Tea", "id": 3, "description": "This is a book" },
+  {
+    "title": "Title",
+    "id": 2,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
+  {
+    "title": "Tea",
+    "id": 3,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
   {
     "title": "New book",
     "id": 1,
@@ -56,10 +114,23 @@
     "comments": [
       { "id": 1, "text": "Nice book" },
       { "id": 2, "text": "Another comment" }
-    ]
+    ],
+    "image": "/img/1.jpg"
   },
-  { "title": "Title", "id": 2, "description": "This is a book" },
-  { "title": "Tea", "id": 3, "description": "This is a book" },
+  {
+    "title": "Title",
+    "id": 2,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
+  {
+    "title": "Tea",
+    "id": 3,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
   {
     "title": "New book",
     "id": 1,
@@ -68,10 +139,23 @@
     "comments": [
       { "id": 1, "text": "Nice book" },
       { "id": 2, "text": "Another comment" }
-    ]
+    ],
+    "image": "/img/1.jpg"
   },
-  { "title": "Title", "id": 2, "description": "This is a book" },
-  { "title": "Tea", "id": 3, "description": "This is a book" },
+  {
+    "title": "Title",
+    "id": 2,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
+  {
+    "title": "Tea",
+    "id": 3,
+    "description": "This is a book",
+    "publishDate": "2016-09-11",
+    "image": "/img/1.jpg"
+  },
   {
     "title": "New book",
     "id": 1,
@@ -80,20 +164,7 @@
     "comments": [
       { "id": 1, "text": "Nice book" },
       { "id": 2, "text": "Another comment" }
-    ]
-  },
-  { "title": "Title", "id": 2, "description": "This is a book" },
-  { "title": "Tea", "id": 3, "description": "This is a book" },
-  {
-    "title": "New book",
-    "id": 1,
-    "description": "This is a book",
-    "publishDate": "2016-09-11",
-    "comments": [
-      { "id": 1, "text": "Nice book" },
-      { "id": 2, "text": "Another comment" }
-    ]
-  },
-  { "title": "Title", "id": 2, "description": "This is a book" },
-  { "title": "Tea", "id": 3, "description": "This is a book" }
+    ],
+    "image": "/img/1.jpg"
+  }
 ]

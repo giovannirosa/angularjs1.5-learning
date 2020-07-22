@@ -3,6 +3,15 @@
 angular.module("blogList").component("blogList", {
   templateUrl: "/templates/blog-list.html",
   controller: function (post, $location, $routeParams, $rootScope, $scope) {
+    var q = $location.search().q;
+    console.log(q);
+    if (q) {
+      $scope.query = q;
+      $scope.searchQuery = true;
+    }
+
+    $scope.order = "-title";
+
     $scope.goToItem = function (post) {
       $rootScope.$apply(function () {
         $location.path("/blog/" + post.id);
@@ -24,6 +33,9 @@ angular.module("blogList").component("blogList", {
       if ($scope.query) {
         $scope.loadingQuery = true;
         $scope.cssClass = "col-sm-12";
+        if ($scope.query !== q) {
+          $scope.searchQuery = false;
+        }
       } else {
         if ($scope.loadingQuery) {
           setupCol($scope.items, 2);
